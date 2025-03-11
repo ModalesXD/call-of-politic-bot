@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     // Enable latest features
+    "types": ["bun"],
     "lib": ["ESNext", "DOM"],
     "target": "ESNext",
     "module": "ESNext",
@@ -19,7 +20,7 @@
     "skipLibCheck": true,
     "noFallthroughCasesInSwitch": true,
 
-    // Some stricter flags (disabled by default)
+    // Some stricter flags (disablbun ed by default)
     "noUnusedLocals": false,
     "noUnusedParameters": false,
     "noPropertyAccessFromIndexSignature": false
